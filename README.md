@@ -6,12 +6,12 @@
 
 1. Clone the repository onto your computer.
 
-2. Run the script 'build.sh' in the cloned directory.
+2. Run the script `build.sh` in the cloned directory.
 
 ### Running Docker
 
-1. Copy the files you wish to build and run into the 'cse291' directory.
+1. Copy the files you wish to build and run into the `cse291` directory.
 
-2. Run the script 'run.sh' in the cloned directory - NOT the cse291 directory.  This will open the Docker image as an interactive prompt.
+2. Run the script `run.sh` in the cloned directory - NOT the cse291 directory.  This will open the Docker image as an interactive prompt.
 
-3. The 'cse291' directory will be mounted in the Docker image and anything you copy into that on your local computer will be accessible from inside the Docker image.  This will let you run your code exactly how it will be run in the grader.
+3. The `cse291` directory will be mounted at `/cse291` in the Docker image and anything you copy into that on your local computer will be accessible from inside the Docker image.  This will let you run your code exactly how it will be run in the grader.
